@@ -15,7 +15,7 @@ body {
 
 #main{
     position: relative;
-    background-color: rgb(21, 21, 21);
+    /* background-color: rgb(21, 21, 21); */
 }
 
 #page1{
@@ -64,4 +64,37 @@ body {
     text-transform: uppercase;
     font-weight: 300;
     overflow: hiddenk;
+}
+
+.navbar{
+    padding: 2.3vw 5.5vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar h1{
+    font-family: "Permanent Marker";
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1vw;
+}
+.navbar h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    font-weight: 100;
+    font-size: 1vw;
+}
+
+
+.content1{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 7vw;
 }
